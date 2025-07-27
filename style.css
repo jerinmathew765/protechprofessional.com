@@ -1,3 +1,38 @@
-.bg-color {
-  background-color: #016bb6 !important;
+.alt-section {
+  background-color: #016bb6;
+  color: #fff;
+}
+
+.main-section-home {
+  background-color: #21252959 !important;
+  color: #fff;
+  padding: 40px;
+  border-radius: 2px;
+  h1 {
+    font-weight: 700 !important;
+  }
+}
+
+.bg-home-main {
+  background-size: cover;
+  padding: 140px !important;
+  animation: changeBackground 30s infinite;
+}
+
+@keyframes changeBackground {
+  0% {
+    background-image: url(img/home1.jpg);
+  }
+  25% {
+    background-image: url(img/home2.jpg);
+  }
+  50% {
+    background-image: url(img/home.jpg);
+  }
+  75% {
+    background-image: url(img/home1.jpg);
+  }
+  100% {
+    background-image: url(img/home2.jpg);
+  }
 }
